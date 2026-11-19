@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+.env
+.env.*
+.kaggle/
+kaggle.json
+access_token
+credentials.json
+
+# 개인 설정, 원자적 저장 임시 파일, 자격증명
+/gpu.local.json
+/gpu.local.json.lock
+/.gpu-private-*
+/gpu.toml
+/colab.toml
+/token.json
+*.pem
+*.key
+
+# 로컬 환경, 결과 및 별도 프로젝트
+.DS_Store
+*.pyc
+*.log
+/history/
+/outputs/
+/자율실행/
